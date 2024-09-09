@@ -1,0 +1,74 @@
+@media (max-width:321px){
+    .cities_container{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 20px;
+      width:100%;
+  
+  }
+  .cities_heading{
+      font-family: "Roboto";
+      font-size:20px;
+      color:orange;
+      
+  }
+  .input_ele{
+    font-family: "Roboto";
+    font-size:15px;
+    color:black;
+    background-color: white;
+    border-width: 0px;
+  }
+  .input_ele_table{
+    font-family: "Roboto";
+    font-size:12px;
+    color:black;
+    background-color: white;
+    padding:5px;
+    border-radius: 5px;
+  }
+  .icon_size{
+    height: 20px;
+    width:20px;
+    margin: 5px;
+  }
+  .search_container{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid black;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  table {
+      max-width: 300px;
+      margin-top: 5px;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 4px;
+      
+    }
+     
+    th {
+      background-color: white;
+      font-family: "Roboto";
+      font-size:13px;
+      color:black;
+    } 
+    
+    tr:nth-child(even) {
+      background-color: black;
+      font-family: "Roboto";
+      font-size:10px;
+      color:white;
+    }
+    tr:nth-child(odd) {
+      background-color: black;
+      font-family: "Roboto";
+      font-size:10px;
+      color:white;
+    }
+  }
